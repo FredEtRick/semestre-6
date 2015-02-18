@@ -1,0 +1,73 @@
+\documentclass[11pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[frenchb]{babel}
+
+\usepackage[a4paper]{geometry}
+% si besoin de changer les marges :
+%\usepackage[a4paper,left=2cm,bottom=2cm]{geometry}
+
+\usepackage{amsmath,amsfonts,amssymb}
+%\usepackage[np]{numprint}
+\usepackage{xspace}
+\usepackage{fancyhdr} % suggestion pour les en-tête
+\usepackage{color}
+\pagestyle{fancy}
+
+\usepackage{enumitem}
+\newlist{longenum}{enumerate}{15}
+\setlist[longenum,1]{label=(\Roman*), font=\color{blue}}
+\setlist[longenum,2]{label=(\Alph*), font=\color{blue}}
+\setlist[longenum,3]{label=(\arabic*), font=\color{blue}}
+\setlist[longenum,4]{label=(\roman*), font=\color{blue}}
+\setlist[longenum,5]{label=(\alph*), font=\color{blue}}
+\setlist[longenum,6]{label=(\Roman*), font=\color{blue}}
+\setlist[longenum,7]{label=(\Alph*), font=\color{blue}}
+\setlist[longenum,8]{label=(\arabic*), font=\color{blue}}
+\setlist[longenum,9]{label=(\roman*), font=\color{blue}}
+\setlist[longenum,10]{label=(\alph*), font=\color{blue}}
+\setlist[longenum,11]{label=(\Roman*), font=\color{blue}}
+\setlist[longenum,12]{label=(\Alph*), font=\color{blue}}
+\setlist[longenum,13]{label=(\arabic*), font=\color{blue}}
+\setlist[longenum,14]{label=(\roman*), font=\color{blue}}
+\setlist[longenum,15]{label=(\alph*), font=\color{blue}}
+
+\begin{document}
+
+	\begin{longenum}
+		\item \color{red} (début cours 1) \color{black} logique des propositions \(\rightarrow\) logique des prédicats du premier ordre
+		\begin{longenum}
+			\item intro
+			\begin{longenum}
+				\item la logique
+				\begin{longenum}
+					\item science du raisonnement
+					\item but
+					\begin{longenum}
+						\item évaluer la validité ou l'invalidité d'un raisonnement
+						\item déterminer si des hypothèses peuvent amener à une conclusion
+						\item à partir d'un raisonnement, dire s'il est ou non correct
+					\end{longenum}
+					\item exemple
+					\begin{longenum}
+						\item A = "albert est coupable"
+						\item B = "baptiste est coupable"
+						\item C = "albert avait un couteau"
+						\item D = "celui qui avait un couteau a tué tout le monde"
+						\item de \(C\land D\) je déduis \(\neg A\)
+						\item le rôle de la logique est de dire que ce raisonnement n'est pas valide
+					\end{longenum}
+				\end{longenum}
+				\item "niveaux" de logique
+				\begin{longenum}
+					\item 
+					\item les années passées : logique des propositions
+					\item cette année : logique des prédicats du premier ordre
+				\end{longenum}
+				
+			\end{longenum}
+		\end{longenum}
+	\end{longenum}
+
+\end{document}

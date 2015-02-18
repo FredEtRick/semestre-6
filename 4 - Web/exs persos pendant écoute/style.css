@@ -1,0 +1,56 @@
+h1
+{
+	text-align : center;
+	color : red;
+}
+.crie
+{
+	text-transform : uppercase;
+}
+#test
+{
+	color : green;
+}
+#gjeze
+{
+	color : orange;
+}
+img
+{
+	display : block;
+}
+header, footer
+{
+	background : black;
+	color : white;
+	padding : 15px;
+}
+nav
+{
+	width : 300px;
+	background : yellow;
+	float : left;
+	margin-top : 10px;
+}
+.corps
+{
+	margin-left : 310px;
+	margin-top : -10px;
+	background : #eeeeee;
+}
+article
+{
+	background : #e0e0e0;
+}
+#sec1
+{
+	background : #aaffcc;
+}
+#sec2
+{
+	background : #ffffaa;
+}
+#sec3
+{
+	background : #ccaaff;
+}

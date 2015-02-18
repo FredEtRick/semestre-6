@@ -1,0 +1,11 @@
+
+TD-TP sur les arbres binaires:
+
+classes Arbre, ArbreRech, PeignePlein
+
+programme de test arbmain.cc (resultats dans arbmain.r)
+
+Utilisation de dynamic_cast dans les contructeurs par copie et operator= 
+des sous classes ArbreRech et PeignePlein: les explications sont dans
+le constructeur par copie de ArbreRech
+

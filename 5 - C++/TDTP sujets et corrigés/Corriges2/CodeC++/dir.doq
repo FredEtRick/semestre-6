@@ -1,0 +1,8 @@
+mus.* : le texte du td-tp
+
+Obj*.*: les classes pour les objets du musee
+SalleExpo.* : la classe pour les salles d'exposition
+mainMus.* : main pour tester le tout
+
+corrige.txt: commentaires divers pour le td
+
